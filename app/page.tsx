@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic';
 
-import { getInitialVisibility } from '../lib/getInitialVisibility';
+import { getInitialVisibility } from '../src/lib/getInitialVisibility';
 
 const PromoBanner = dynamic(() => import('@/components/PromoBanner'), {
   ssr: false,
