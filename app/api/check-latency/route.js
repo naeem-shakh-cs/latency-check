@@ -1,5 +1,5 @@
 
-
+export const dynamic = 'force-dynamic';
 export async function GET(request) {
   const myHeaders = new Headers();
 myHeaders.append("x-request-origin", "launch_cdn_cloudflare");
